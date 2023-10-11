@@ -1,11 +1,11 @@
 print('\n Start init-mongo.js \n')
 
-db = db.getSiblingDB('ignis')
+db = db.getSiblingDB('entropy')
 
 db.createUser({
     user: "admin",
     pwd: "admin",
-    roles: [{ role: "readWrite", db: "ignis" }]
+    roles: [{ role: "readWrite", db: "entropy" }]
 })
 
 db.createCollection('users')
