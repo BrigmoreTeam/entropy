@@ -1,7 +1,7 @@
 {
-  "name": "ignis",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "entropy",
+  "version": "0.0.1",
+  "main": "source/main.ts",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
